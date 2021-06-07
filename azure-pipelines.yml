@@ -20,7 +20,7 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- task: Mongodb@0
+- task: Mongodb@1
   inputs:
     versionSpec: '4.4'
   displayName: 'Install MongoDB'
