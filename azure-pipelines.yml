@@ -24,5 +24,5 @@ steps:
   displayName: 'Install Mongodb'
 - script: |
     apt-get install mongodb
-  displayname: 'apt-get install mongodb'
+  displayName: 'apt-get install mongodb'
  
