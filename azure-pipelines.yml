@@ -23,6 +23,6 @@ steps:
 - task: InstallMongo
   displayName: 'Install Mongodb'
 - script: |
-   choco install mongodb --pre 
+  apt-get install mongodb
  displayname: 'choco install mongodb --pre'
  
