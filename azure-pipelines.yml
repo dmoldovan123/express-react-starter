@@ -23,6 +23,6 @@ steps:
 - task: InstallMongo
   displayName: 'Install Mongodb'
 - script: |
-  apt-get install mongodb
- displayname: 'apt-get install mongodb'
+    apt-get install mongodb
+  displayname: 'apt-get install mongodb'
  
